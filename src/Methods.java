@@ -1,5 +1,6 @@
 public class Methods {
-   static int logic( int x, int y){
+    //using the methods concept DRY(don't repeat yourself)
+    static int logic( int x, int y){
         int z;
         if(x>y){
             z=x+y;
