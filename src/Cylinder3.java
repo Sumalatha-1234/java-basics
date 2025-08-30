@@ -15,28 +15,18 @@ class get{
     public double getHeight(){
         return height;
     }
-    public double surfaceArea(){
-        double surfaceArea=2*Math.PI*radius*(height+radius);
-        return surfaceArea;
-    }
-    public double volume(){
-        double volume=Math.PI*radius*radius*height;
-        return volume;
+    public get(double r,double h){
+       radius=9.8;
+       height=3.1;
     }
 }
-public class Cylinder2 {
+public class Cylinder3 {
     public static void main(String[] args) {
-        get g = new get();
-        g.setRadius(9.8);
+        get g = new get(8.9,3.5);
         System.out.println("The radius of the cylinder is:");
         System.out.println(g.getRadius());
-        g.setHeight(3.1);
         System.out.println("The height of the cylinder is:");
         System.out.println(g.getHeight());
-        System.out.println("The surfaceArea of the cylinder is:");
-        System.out.println(g.surfaceArea());
-        System.out.println("The volume of the cylinder is:");
-        System.out.println(g.volume());
     }
 }
 /*
@@ -45,8 +35,4 @@ The radius of the cylinder is:
 9.8
 The height of the cylinder is:
 3.1
-The surfaceArea of the cylinder is:
-794.3202865336434
-The volume of the cylinder is:
-935.3275311973678
  */
