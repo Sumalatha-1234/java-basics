@@ -13,7 +13,7 @@ Circle constructor with the radius. Initialize color using this.
 Method: displayDetails() (Override): Use super.displayDetails() to call the parent's method,
 and then print the color.
 */
-public class ShapeHierarchy {
+public class ShapeHierarchy1 {
 
     /**
      * Parent Class: Represents a generic shape with a name.
