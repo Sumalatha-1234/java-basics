@@ -15,10 +15,10 @@ Method: Override the startEngine() method from the parent class. In the overridd
  and then print a message specific to the Car class, such as "The car's engine is now running.".
 main method: In a main method, create a Car object and call the overridden startEngine() method.
  */
- class Vehicle {
+ class Vehicle1 {
     String type;
 
-    public Vehicle(String type) {
+    public Vehicle1(String type) {
         this.type = type;
     }
 
@@ -26,7 +26,7 @@ main method: In a main method, create a Car object and call the overridden start
         System.out.println("The vehicle's engine has started...");
     }
 }
-    class Car extends Vehicle{
+    class Car extends Vehicle1{
         String model;
        public Car(String type,String model){
             super(type);
